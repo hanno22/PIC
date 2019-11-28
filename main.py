@@ -34,9 +34,6 @@ class System:
         for i in range(0, len(_x[0])):
             plt.plot(_t, _x[:, i])
         plt.show()
-        print(_t)
-        print(_x)
-        return _x, _t
 
 
 class State:
